@@ -1,0 +1,27 @@
+--------- Badblocks check ---------
+
+# sudo badblocks -nsv -b 512 /dev/device
+
+This test is designed for devices with data already on them. A non-destructive read-write test makes a backup of the original content of a sector before testing with a single random pattern and then restoring the content from the backup. This is a single pass test and is useful as a general maintenance test.
+
+-n: Non-destructive read-write test. By default only a non-destructive read-only test is done.
+
+-s: Show the progress of the scan by writing out rough percentage completion of the current badblocks pass over the  disk.
+
+-v: Verbose mode. Will write the number of read errors, write errors and data- corruptions to stderr.
+
+-b: Block size. Default block size is 1024. You can determined the block size of the disk by ---
+
+$ lsblk -o NAME,PHY-SEC 
+	
+	
+--------- Print files which match *.txt and are of size zero ---------
+> $ find . -name '*.txt' -size 0
+
+
+--------- Compress a folder with tar ---------
+> tar -cJf archiveFileName.tar.xz directoryName
+
+- c => Create a new tar archive
+- J => Use the xz compression by calling the xz command
+- f => Archive name

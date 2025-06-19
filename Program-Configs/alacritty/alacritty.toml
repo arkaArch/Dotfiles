@@ -1,0 +1,29 @@
+general.import = ["./themes/rose-pine.toml"]
+
+[window]
+opacity = 0.9
+blur = true
+padding.x = 15
+padding.y = 20
+decorations = "None"
+
+[font]
+size = 11
+normal.family = "CaskaydiaCove Nerd Font"
+bold.family = "CaskaydiaCove Nerd Font"
+italic.family = "CaskaydiaCove Nerd Font"
+bold_italic.family = "CaskaydiaCove Nerd Font"
+
+[scrolling]
+history = 50000
+multiplier = 5
+
+[cursor]
+style.shape = "Block"
+style.blinking = "On"
+blink_interval = 800
+blink_timeout = 10
+
+[mouse]
+hide_when_typing = true
+

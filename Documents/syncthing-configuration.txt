@@ -1,0 +1,18 @@
+# Start and enable syncthing both machines:
+sudo systemctl start syncthing@arka
+sudo systemctl enable syncthing@arka 
+
+# Provide username and password both devices:
+Browser -> http://localhost:8384
+Actions -> Setting -> GUI -> GUI Authenctication User -> GUI Authentication Password
+Uncheck Start Browser
+
+A default folder ~/Sync will be created. You can delete it by going 
+=> Web Interface GUI -> Default Folder -> Edit -> Remove
+
+
+Now if you try to connect desktop via gui(browser) from laptop by typing "http://192.168.0.119:8384" 
+it doesn't connect since by default syncthing doesn't allow the service to be modified or controlled 
+from outside the machine.
+So to allow it, go to the file ~/.local/state/syncthing/config.xml of Desktop
+Then go to <address> of <gui> section, and change it to 0.0.0.0:8384
