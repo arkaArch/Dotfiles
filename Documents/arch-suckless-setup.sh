@@ -56,7 +56,7 @@ systemctl --user start mpd
 # Notification:
 sudo pacman -S libnotify dunst
 mkdir -p ~/.local/share
-cp -r ~/Dotfiles/Icons ~/.local/share
+cp -r ~/Dotfiles/Icons/notify-icons ~/.local/share
 ln -svf ~/Dotfiles/Program-Configs/dunst ~/.config
 
 
@@ -84,7 +84,8 @@ ln -svf ~/Dotfiles/Program-Configs/nvim ~/.config
 sudo pacman -S lxappearance-gtk3
 mkdir ~/{.themes,.icons}
 tar -xzf ~/Dotfiles/Themes/everforest-dark-bordered.tar.gz -C ~/.themes
-ln -svf ~/Dotfiles/Themes/dwm.css ~/.Program-Configs/gtk-3.0/gtk.css
+mkdir ~/.config/gtk-3.0
+ln -svf ~/Dotfiles/Themes/dwm.css ~/.config/gtk-3.0/gtk.css
 unzip ~/Dotfiles/Icons/themes/everforest-dark-icons.zip -d ~/.icons
 tar -xzf ~/Dotfiles/Icons/themes/nordzy-cursors.tar.gz -C ~/.icons
 
