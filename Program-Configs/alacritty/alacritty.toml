@@ -1,4 +1,4 @@
-general.import = ["./themes/rose-pine.toml"]
+general.import = ["./themes/everforest-dark.toml"]
 
 [window]
 opacity = 0.9
@@ -8,7 +8,7 @@ padding.y = 20
 decorations = "None"
 
 [font]
-size = 11
+size = 10
 normal.family = "CaskaydiaCove Nerd Font"
 bold.family = "CaskaydiaCove Nerd Font"
 italic.family = "CaskaydiaCove Nerd Font"

@@ -3,10 +3,10 @@
 /* colorscheme */
 #include "./themes/everforest.h"
 
-static char *font = "CaskaydiaCove Nerd Font:pixelsize=20:antialias=true:autohint=true";
+static char *font = "CaskaydiaCove Nerd Font:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-    "NotoColorEmoji:pixelsize=20:antialias=true:autohint=true"
+    "NotoColorEmoji:pixelsize=15:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
