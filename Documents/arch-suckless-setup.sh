@@ -61,7 +61,7 @@ ln -svf ~/Dotfiles/Program-Configs/dunst ~/.config
 
 
 # Browser:
-sudo pacman -S firefox  # Extension: ublock-origin
+sudo pacman -S firefox  # extension: ublock-origin
 
 
 # Z-Shell with color prompt:
@@ -72,8 +72,8 @@ rm -r ~/.bash*
 ln -svf ~/Dotfiles/Program-Configs/zsh/zsh_arch ~/.zshrc
 
 
-# Cli tools, firmware-updaters:
-sudo pacman -S pacman-contrib tree git openssh fwupd
+# Cli tools, firmware-updaters and torrent:
+sudo pacman -S pacman-contrib tree git openssh fwupd transmission-cli
 
 
 # Link neovim setup:

@@ -49,8 +49,8 @@ systemctl --user enable mpd
 systemctl --user start mpd
 
 # Install kitty, fzf ans fastfetch:
-sudo dnf install kitty fzf fastfetch
-ln -svf ~/Dotfiles/Program-Configs/{kitty,fastfetch} ~/.config
+sudo dnf install alacritty fzf fastfetch
+ln -svf ~/Dotfiles/Program-Configs/{alacritty,fastfetch} ~/.config
 
 # Install z-shell:
 sudo dnf install zsh zsh-{syntax-highlighting,autosuggestions}
@@ -59,7 +59,7 @@ rm -r ~/.bash*
 ln -svf ~/Dotfiles/Program-Configs/zsh/zsh_fedora ~/.zshrc
 
 # Install programs for development:
-sudo dnf install gcc-c++ gdb  java-21-openjdk-devel
+sudo dnf install gcc-c++ gdb
 
 # Install vscode:
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
@@ -70,6 +70,6 @@ sudo dnf install code
 # C/C++ : Microsoft
 # Everforest : sainnhe
 # Material Icon Theme : Philipp Kief
-# Language Support for Java(TM) by Red Hat : Red Hat
+
 # Link settings.json:
 ln -svf ~/Dotfiles/Program-Configs/vscode/settings.json ~/.config/Code/User
