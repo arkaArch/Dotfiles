@@ -1,4 +1,4 @@
-#!/bin/env/bash
+#!/bin/bash
 
 # Set gnome-text-editor:
 gsettings set org.gnome.TextEditor tab-width 4

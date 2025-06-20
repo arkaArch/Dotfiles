@@ -1,4 +1,4 @@
-#!/bin/env/bash
+#!/bin/bash
 
 # Uninstall unused program:
 sudo dnf remove \
@@ -48,9 +48,9 @@ ln -svf ~/Dotfiles/Program-Configs/{mpd,ncmpcpp} ~/.config
 systemctl --user enable mpd
 systemctl --user start mpd
 
-# Install kitty, fzf ans fastfetch:
-sudo dnf install alacritty fzf fastfetch
-ln -svf ~/Dotfiles/Program-Configs/{alacritty,fastfetch} ~/.config
+# Install fzf and fastfetch:
+sudo dnf install fzf fastfetch
+ln -svf ~/Dotfiles/Program-Configs/fastfetch ~/.config
 
 # Install z-shell:
 sudo dnf install zsh zsh-{syntax-highlighting,autosuggestions}

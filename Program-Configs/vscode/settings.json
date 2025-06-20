@@ -2,7 +2,6 @@
     "window.menuBarVisibility": "compact",
     "editor.minimap.enabled": false,
     "editor.fontFamily": "'FiraCode Nerd Font'",
-    "workbench.colorTheme": "Everforest Dark",
     "workbench.iconTheme": "material-icon-theme",
     "everforest.darkContrast": "hard",
     "everforest.darkWorkbench": "flat",
@@ -19,6 +18,5 @@
     "C_Cpp.vcFormat.space.beforeInitializerListOpenBrace": true,
     "C_Cpp.vcFormat.space.beforeLambdaOpenParenthesis": true,
     "C_Cpp.vcFormat.space.beforeOpenSquareBracket": true,
-    "extensions.ignoreRecommendations": true,
-    "redhat.telemetry.enabled": false
+    "extensions.ignoreRecommendations": true
 }
