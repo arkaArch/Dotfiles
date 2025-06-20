@@ -2,6 +2,7 @@
     "window.menuBarVisibility": "compact",
     "editor.minimap.enabled": false,
     "editor.fontFamily": "'FiraCode Nerd Font'",
+    "editor.fontSize": 14,
     "workbench.colorTheme": "Everforest Dark",
     "workbench.iconTheme": "material-icon-theme",
     "everforest.darkContrast": "hard",

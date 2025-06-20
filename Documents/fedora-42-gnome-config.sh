@@ -13,10 +13,9 @@ gsettings set org.gnome.Ptyxis audible-bell false
 gsettings set org.gnome.Ptyxis use-system-font false
 gsettings set org.gnome.Ptyxis font-name 'FiraCode Nerd Font 11'
 
-# Switch off switch-to-application shortcuts:
-# Also off "Use keyboard shortcuts to active apps" option 
-# in "Behavior" section of "Dash to Dock"
+# Switch off switch-to-application shortcuts in gnome and dash-to-dock:
 for i in {1..9}; do gsettings set org.gnome.shell.keybindings switch-to-application-$i "[]"; done
+for i in {1..9}; do gsettings set org.gnome.shell.extensions.dash-to-dock app-hotkey-$i "[]"; done
 
 # Set static workspace:
 gsettings set org.gnome.mutter dynamic-workspaces false
