@@ -21,5 +21,7 @@
     "C_Cpp.vcFormat.space.beforeLambdaOpenParenthesis": true,
     "C_Cpp.vcFormat.space.beforeOpenSquareBracket": true,
     "extensions.ignoreRecommendations": true,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "workbench.editor.empty.hint": "hidden",
+    "markdown.preview.fontFamily": "'FiraCode Nerd Font'"
 }
