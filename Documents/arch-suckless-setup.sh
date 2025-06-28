@@ -90,5 +90,5 @@ unzip ~/Dotfiles/Icons/themes/everforest-dark-icons.zip -d ~/.icons
 tar -xzf ~/Dotfiles/Icons/themes/nordzy-cursors.tar.gz -C ~/.icons
 
 
-# Link .xintrc
+# Link .xintrc:
 ln -svf ~/Dotfiles/Program-Configs/xorg/.xinitrc ~
