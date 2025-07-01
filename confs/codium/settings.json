@@ -1,0 +1,16 @@
+{
+    "window.menuBarVisibility": "compact",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "'FiraCode Nerd Font'",
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "Everforest Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "everforest.darkContrast": "hard",
+    "everforest.darkWorkbench": "flat",
+    "everforest.italicKeywords": true,
+    "editor.formatOnSave": true,
+    "extensions.ignoreRecommendations": true,
+    "workbench.startupEditor": "none",
+    "workbench.editor.empty.hint": "hidden",
+    "markdown.preview.fontFamily": "'FiraCode Nerd Font'"
+}
