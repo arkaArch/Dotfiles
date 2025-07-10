@@ -6,7 +6,8 @@ sudo dnf remove \
     gnome-{initial-setup,logs,maps,tour,weather,shell-extension-background-logo} \
     libreoffice-core open-vpn vpnc fedora-chromium-config nano baobab mediawriter \
     totem rhythmbox anaconda-core anaconda-install-env-deps amd-gpu-firmware amd-ucode-firmware \
-    abrt brlapi braille-printer-app snapshot ntfs-3g virtualbox-guest-additions qemu-guest-agent
+    abrt brlapi braille-printer-app snapshot ntfs-3g ntfs-3g-libs virtualbox-guest-additions \
+    qemu-guest-agent nvidia-gpu-firmware
 
 # If you enable third party repos during installation remove those:
 sudo rm /etc/yum.repos.d/_copr:copr.fedorainfracloud.org:phracek:PyCharm.repo
