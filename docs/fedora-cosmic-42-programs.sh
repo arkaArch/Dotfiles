@@ -45,7 +45,9 @@ ln -svf ~/Dotfiles/confs/zsh/zshrc ~/.zshrc
 sudo dnf remove \
     amd-gpu-firmware amd-ucode-firmware nvidia-gpu-firmware anaconda-core \
     anaconda-install-env-deps mediawriter nano abrt brlapi braille-printer-app \
-    libreoffice-core thunderbird nheko cosmic-player rhythmbox vlc-libs \
+    libreoffice-core thunderbird nheko cosmic-player rhythmbox okular vlc-libs \
     virtualbox-guest-additions qemu-guest-agent ntfs-3g ntfs-3g-libs
+
+sudo dnf autoremove
     
 
