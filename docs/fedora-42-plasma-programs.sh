@@ -43,11 +43,12 @@ ln -svf ~/Dotfiles/confs/zsh/zshrc ~/.zshrc
 
 # Uninstall unused program:
 sudo dnf remove \
-    amd-gpu-firmware amd-ucode-firmware nvidia-gpu-firmware anaconda-core \
-    anaconda-install-env-deps mediawriter nano abrt brlapi braille-printer-app \
-    libreoffice-core thunderbird nheko cosmic-player rhythmbox okular vlc-libs \
+    anaconda-core anaconda-install-env-deps abrt brlapi \
+    amd-gpu-firmware amd-ucode-firmware nvidia-gpu-firmware \
+    kontact korganizer kmail kaddressbook dragon vlc-libs \
+    elisa-player kamoso qrca kamera kmahjongg kmines kpat \
+    kolourpaint skanpage libreoffice-core nano mediawriter \
+    neochat krdc krfb kmouth akregator \
     virtualbox-guest-additions qemu-guest-agent ntfs-3g ntfs-3g-libs
 
 sudo dnf autoremove
-    
-

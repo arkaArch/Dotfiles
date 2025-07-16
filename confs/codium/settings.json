@@ -12,5 +12,6 @@
     "extensions.ignoreRecommendations": true,
     "workbench.startupEditor": "none",
     "workbench.editor.empty.hint": "hidden",
-    "markdown.preview.fontFamily": "'FiraCode Nerd Font'"
+    "markdown.preview.fontFamily": "'FiraCode Nerd Font'",
+    "git.openRepositoryInParentFolders": "never"
 }
