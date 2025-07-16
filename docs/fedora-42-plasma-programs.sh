@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Set the static hostname:
+sudo hostnamectl set-hostname devbox
+
 # Upgrade the system:
 sudo dnf upgrade
 
