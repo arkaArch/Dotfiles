@@ -53,8 +53,8 @@ ln -svf ~/Dotfiles/confs/{mpd,ncmpcpp} ~/.config
 systemctl --user enable mpd
 systemctl --user start mpd
 
-# Install fzf and fastfetch:
-sudo dnf install fzf fastfetch
+# Install fzf and fastfetch and sensors:
+sudo dnf install fzf fastfetch lm_sensors
 ln -svf ~/Dotfiles/confs/fastfetch ~/.config
 
 # Install z-shell:
