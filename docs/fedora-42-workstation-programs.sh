@@ -7,13 +7,17 @@ sudo dnf remove \
     libreoffice-core open-vpn vpnc fedora-chromium-config nano baobab mediawriter \
     totem rhythmbox anaconda-core anaconda-install-env-deps amd-gpu-firmware amd-ucode-firmware \
     abrt brlapi braille-printer-app snapshot ntfs-3g ntfs-3g-libs virtualbox-guest-additions \
-    qemu-guest-agent nvidia-gpu-firmware
+    qemu-guest-agent nvidia-gpu-firmware yelp
 
 # If you enable third party repos during installation remove those:
 sudo rm /etc/yum.repos.d/_copr:copr.fedorainfracloud.org:phracek:PyCharm.repo
 sudo rm /etc/yum.repos.d/google-chrome.repo
 sudo rm /etc/yum.repos.d/rpmfusion-nonfree-nvidia-driver.repo
 sudo rm /etc/yum.repos.d/rpmfusion-nonfree-steam.repo
+
+# To enable updating openh264 package:
+sudo nano /etc/yum.repos.d/fedora-cisco-openh264.repo
+# Under [fedora-cisco-openh264] change "enabled=1" to "enabled=0"
 
 # Upgrade the system:
 sudo dnf upgrade
@@ -36,7 +40,7 @@ sudo dnf install yazi
 ln -svf ~/Dotfiles/confs/yazi ~/.config
 
 # Install nvim:
-sudo dnf install nvim
+sudo dnf install neovim
 ln -svf ~/Dotfiles/confs/nvim ~/.config
 
 # Install music and video programs:
