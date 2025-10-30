@@ -9,6 +9,10 @@ sudo dnf remove \
     abrt brlapi braille-printer-app snapshot ntfs-3g ntfs-3g-libs virtualbox-guest-additions \
     qemu-guest-agent nvidia-gpu-firmware yelp
 
+# For fedora 43:
+sudo dnf remove \
+    showtime decibels papers
+
 # If you enable third party repos during installation remove those:
 sudo rm /etc/yum.repos.d/_copr:copr.fedorainfracloud.org:phracek:PyCharm.repo
 sudo rm /etc/yum.repos.d/google-chrome.repo
