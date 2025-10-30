@@ -6,7 +6,7 @@
 
 
 ### Upgrade fedora to next version:
-1. Upgrade the packages and rebot: `sudo dnf upgrade --refresh`
+1. Upgrade the packages and reboot: `sudo dnf upgrade --refresh`
 2. Download the updated packages: `sudo dnf system-upgrade download --releasever=43`
 3. Performs the upgrade offline during the next boot: `sudo dnf5 offline reboot`
 4. Remove retired packages:
