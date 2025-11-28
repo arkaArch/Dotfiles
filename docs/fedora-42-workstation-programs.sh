@@ -14,14 +14,10 @@ sudo dnf remove \
     showtime decibels papers
 
 # If you enable third party repos during installation remove those:
-sudo rm /etc/yum.repos.d/_copr:copr.fedorainfracloud.org:phracek:PyCharm.repo
 sudo rm /etc/yum.repos.d/google-chrome.repo
 sudo rm /etc/yum.repos.d/rpmfusion-nonfree-nvidia-driver.repo
 sudo rm /etc/yum.repos.d/rpmfusion-nonfree-steam.repo
 
-# To enable updating openh264 package:
-sudo nano /etc/yum.repos.d/fedora-cisco-openh264.repo
-# Under [fedora-cisco-openh264] change "enabled=1" to "enabled=0"
 
 # Upgrade the system:
 sudo dnf upgrade

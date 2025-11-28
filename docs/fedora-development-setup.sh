@@ -17,3 +17,22 @@ sudo dnf install codium
 
 # Link settings.json:
 ln -svf ~/Dotfiles/confs/codium/settings.json ~/.config/VSCodium/User
+
+
+
+# Setup for python:
+#------------------------
+
+# Install pycharm:
+# Check for phracek/PyCharm repo, if not enable:
+sudo dnf copr enable phracek/PyCharm
+sudo dnf install pycharm-community
+
+# Install pip:
+sudo dnf install python3-pip
+
+# Install virtual environment:
+pip install virtualenv
+
+# To install tkinter (for gui modules like FreeSampleGui to work):
+sudo dnf install python3-tkinter

@@ -8,10 +8,10 @@
     "everforest.darkContrast": "hard",
     "everforest.darkWorkbench": "flat",
     "everforest.italicKeywords": true,
-    "editor.formatOnSave": true,
     "extensions.ignoreRecommendations": true,
     "workbench.startupEditor": "none",
     "workbench.editor.empty.hint": "hidden",
     "markdown.preview.fontFamily": "'FiraCode Nerd Font'",
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "editor.formatOnSave": true
 }
