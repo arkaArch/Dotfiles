@@ -19,7 +19,7 @@ sudo pacman -S firefox
 sudo pacman -S pipewire pipewire-pulse
 
 # Installing file-managers:
-sudo pacman -S yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
+sudo pacman -S yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick udisks2
 ln -svf ~/Dotfiles/confs/yazi ~/.config
 
 # Installing z-shell and exa:
