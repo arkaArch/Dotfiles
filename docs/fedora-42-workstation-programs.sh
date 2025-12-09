@@ -65,4 +65,4 @@ ln -svf ~/Dotfiles/confs/fastfetch ~/.config
 sudo dnf install zsh zsh-{syntax-highlighting,autosuggestions}
 chsh -s $(which zsh)
 rm -r ~/.bash*
-ln -svf ~/Dotfiles/confs/zsh/zshrc ~/.zshrc
+ln -svf ~/Dotfiles/confs/zsh/zshrc_fedora ~/.zshrc
