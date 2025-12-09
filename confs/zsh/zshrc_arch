@@ -52,7 +52,8 @@ compinit
 
 # Gnu aliases:
 alias \
-    la="ls -Alh --color=always --group-directories-first" \
+    ls='eza -l --color=always --group-directories-first' \
+    la='eza -la --color=always --group-directories-first' \
     grep='grep --color=auto' \
     ..='cd ..' \
     ...='cd ../..' \
@@ -69,11 +70,11 @@ alias \
 
 # Pacman aliases:
 alias \
-    dnfi='sudo dnf install' \
-    dnfr='sudo dnf remove' \
-    dnfu='sudo dnf upgrade' \
-    dnfs='dnf search' \
-    dnfar='sudo dnf autoremove'
+    paci='sudo pacman -S' \
+    pacr='sudo pacman -Rns' \
+    pacu='sudo pacman -Syu' \
+    pacri='paccache -rk1' \
+    pacru='paccache -ruk0'
 
 # git aliases
 alias \
@@ -99,6 +100,6 @@ fastfetch
 
 ## ==================== PLUGINS ==================== ##
 # Load zsh plugins; should be last.
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
