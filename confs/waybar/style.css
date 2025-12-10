@@ -1,0 +1,31 @@
+@import "themes/everforest_dark.css";
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "CaskaydiaCove Nerd Font Propo";
+    font-size: 13px;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+    color: @fg;
+    background: @bg;
+}
+
+#workspaces button {
+    color: @fg;
+    background: @bg;
+    padding: 0 5px;
+}
+
+#workspaces button.empty {
+    color: @fg_alt;
+}
+#workspaces button.active {
+    color: @bg;
+    background: @green;
+}
+

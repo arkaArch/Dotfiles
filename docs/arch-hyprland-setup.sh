@@ -9,7 +9,7 @@ sudo pacman -S ttf-cascadia-code-nerd
 
 # Install Hyprland and it's components:
 sudo pacman -S hyprland kitty hyprpaper rofi waybar swaync wl-clipboard
-ln -svf ~/Dotfiles/confs/{hypr,kitty,rofi} ~/.config
+ln -svf ~/Dotfiles/confs/{hypr,kitty,rofi,waybar} ~/.config
 
 # Browser:
 sudo pacman -S firefox 
