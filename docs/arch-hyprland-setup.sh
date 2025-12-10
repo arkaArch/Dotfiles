@@ -21,6 +21,7 @@ sudo pacman -S pipewire pipewire-pulse
 # Installing file-managers:
 sudo pacman -S yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick udisks2
 ln -svf ~/Dotfiles/confs/yazi ~/.config
+sudo pacman -S thunar gvfs thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler ffmpegthumbnailer
 
 # Installing z-shell and exa:
 sudo pacman -S zsh zsh-{syntax-highlighting,autosuggestions}
