@@ -3,7 +3,7 @@
 # Install programs for development:
 sudo dnf install gcc-c++ gdb clangd
 
-# Install racket
+# Install DrRacket
 sudo dnf install racket
 
 # Install vscodium:
