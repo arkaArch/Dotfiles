@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Installing cli utilities:
-sudo pacman -S git openssh pacman-contrib
+sudo pacman -S git openssh pacman-contrib tree fastfetch
 
 # Instal fonts:
 sudo pacman -S noto-fonts{,-cjk,-emoji,-extra}
@@ -9,7 +9,7 @@ sudo pacman -S ttf-cascadia-code-nerd
 
 # Install Hyprland and it's components:
 sudo pacman -S hyprland kitty hyprpaper rofi waybar swaync wl-clipboard
-ln -svf ~/Dotfiles/confs/{hypr,kitty} ~/.config
+ln -svf ~/Dotfiles/confs/{hypr,kitty,rofi} ~/.config
 
 # Browser:
 sudo pacman -S firefox 
@@ -30,3 +30,9 @@ ln -svf ~/Dotfiles/confs/zsh/zshrc_arch ~/.zshrc
 
 # Linking nvim config:
 ln -svf ~/Dotfiles/confs/nvim/ ~/.config/
+
+# Install mpv, mpd and ncmpcpp:
+sudo pacman -S mpv mpd ncmpcpp
+ln -svf ~/Dotfiles/confs/{mpd,ncmpcpp} ~/.config
+systemctl --user enable mpd
+systemctl --user start mpd
