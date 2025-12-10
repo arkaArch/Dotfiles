@@ -5,7 +5,7 @@ sudo pacman -S git openssh pacman-contrib tree fastfetch
 
 # Instal fonts:
 sudo pacman -S noto-fonts{,-cjk,-emoji,-extra}
-sudo pacman -S ttf-cascadia-code-nerd
+sudo pacman -S ttf-cascadia-code-nerd ttf-firacode-nerd
 
 # Install Hyprland and it's components:
 sudo pacman -S hyprland kitty hyprpaper rofi waybar swaync wl-clipboard
