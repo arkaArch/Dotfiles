@@ -18,9 +18,9 @@ sudo pacman -S pycharm-community-edition
     Now this happens because the IDE opens with pycharm script not the actual pycharm executable.
 
     To solve this go to /usr/bin directory. Move the pycharm script with:
-        /usr/bin $ sudo mv pycharm pycharm.bak
+        [/usr/bin]$ sudo mv pycharm pycharm.bak
     Then symlink the executable file in the /usr/bin directory by:
-        /usr/bin $ sudo ln -sv /usr/share/pycharm/bin/pycharm pycharm
+        [/usr/bin]$ sudo ln -sv /usr/share/pycharm/bin/pycharm pycharm
 }
 """
 
