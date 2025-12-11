@@ -37,3 +37,6 @@ sudo pacman -S mpv mpd ncmpcpp
 ln -svf ~/Dotfiles/confs/{mpd,ncmpcpp} ~/.config
 systemctl --user enable mpd
 systemctl --user start mpd
+
+# GTK look and feel:
+sudo pacman -S nwg-look materia-gtk-theme papirus-icon-theme
