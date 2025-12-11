@@ -12,20 +12,26 @@
 
 window#waybar {
     color: @fg;
-    background: @bg;
+    background-color: @bg;
 }
 
 #workspaces button {
-    color: @fg;
-    background: @bg;
     padding: 0 5px;
+    color: @fg;
+    background-color: @bg;
 }
 
 #workspaces button.empty {
     color: @fg_alt;
 }
+
 #workspaces button.active {
     color: @bg;
-    background: @green;
+    background-color: @green;
+}
+
+#clock {
+    padding: 0 10px;
+    background-color: @bg_alt;
 }
 

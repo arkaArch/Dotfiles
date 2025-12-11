@@ -1,6 +1,7 @@
 @define-color  fg      #d3c6aa;
-@define-color  bg      #2d353b;
 @define-color  fg_alt  #9da9a0;
+@define-color  bg      #2d353b;
+@define-color  bg_alt  #3d484d;
 @define-color  red     #e67e80;
 @define-color  yellow  #dbbc7f;
 @define-color  green   #a7c080;
