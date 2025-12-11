@@ -2,7 +2,8 @@
     "layer": "top",             // Waybar at top layer
     "spacing": 15,              // Gaps between modules (4px)
     "height": 22,
-    
+    "width": 1900,
+
     "modules-left": [
         "hyprland/workspaces"
     ],
