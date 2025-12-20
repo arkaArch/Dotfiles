@@ -14,6 +14,7 @@ ln -svf ~/Dotfiles/confs/{hypr,kitty,rofi,waybar} ~/.config
 
 # Notifications and OSD:
 sudo pacman -S mako swayosd
+ln -svf ~/Dotfiles/confs/mako ~/.config
 
 # Browser:
 sudo pacman -S firefox 

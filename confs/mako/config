@@ -1,0 +1,9 @@
+include=~/.config/mako/themes/everforest
+
+font=CaskaydiaCove Nerd Font 10
+default-timeout=5000
+padding=15
+border-radius=10
+anchor=bottom-center
+outer-margin=0,0,60,0
+
