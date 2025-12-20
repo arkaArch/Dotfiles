@@ -1,0 +1,6 @@
+* {
+    font: "CaskaydiaCove Nerd Font 10";
+}
+@import "themes/everforest_dark.rasi"
+@import "styles/centered_grid.rasi"
+
