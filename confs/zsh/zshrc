@@ -76,7 +76,7 @@ alias \
     pacri='paccache -rk1' \
     pacru='paccache -ruk0'
 
-# git aliases
+# git aliases:
 alias \
     gs='git status' \
     ga='git add' \
@@ -84,6 +84,11 @@ alias \
     gpushom='git push origin main' \
     gpullom='git pull origin main'
 
+# System aliases:
+alias \
+    sdn='systemctl poweroff' \
+    rbt='systemctl reboot' \
+    spnd='systemctl suspend' 
 
 ## fzf aliases:
 alias fzf='fzf --height=20 --border --border-label="╢ Search ╟" --color=label:italic:green'
