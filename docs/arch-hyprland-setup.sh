@@ -45,3 +45,6 @@ sudo pacman -S nwg-look materia-gtk-theme papirus-icon-theme
 # Bluetooth:
 sudo pacman -S bluez blueman
 sudo systemctl enable bluetooth.service
+
+# Install vulkan-intel(Don't know wheather its required or not)
+sudo pacman -S vulkan-intel
