@@ -33,8 +33,8 @@ ln -svf ~/Dotfiles/confs/zsh/zshrc ~/.zshrc
 # Linking nvim config:
 ln -svf ~/Dotfiles/confs/nvim/ ~/.config/
 
-# Install mpv, mpd and ncmpcpp:
-sudo pacman -S mpv mpd ncmpcpp
+# Install image-viewer music and video player:
+sudo pacman -S ristretto mpv mpd ncmpcpp
 ln -svf ~/Dotfiles/confs/{mpd,ncmpcpp} ~/.config
 systemctl --user enable mpd
 systemctl --user start mpd

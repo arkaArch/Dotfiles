@@ -98,6 +98,10 @@ fcd() {
 fv() { 
     nvim $(fzf --preview='cat {}') 
 }
+fmp() {
+    FILE_PATH=$(find "${HOME}/Music" -type f -name "*.mp3" | fzf)
+    mpv "$FILE_PATH"
+}
 
 
 # Start zsh with

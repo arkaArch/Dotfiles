@@ -13,6 +13,8 @@
     "workbench.editor.empty.hint": "hidden",
     "markdown.preview.fontFamily": "'FiraCode Nerd Font'",
     "git.openRepositoryInParentFolders": "never",
-    "editor.formatOnSave": true
-    "editor.rulers": [80]
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        80
+    ]
 }
