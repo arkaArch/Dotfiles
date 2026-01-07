@@ -35,7 +35,7 @@ ln -svf ~/Dotfiles/confs/nvim/ ~/.config/
 
 # Install image-viewer music and video player:
 sudo pacman -S ristretto mpv mpd ncmpcpp
-ln -svf ~/Dotfiles/confs/{mpd,ncmpcpp} ~/.config
+ln -svf ~/Dotfiles/confs/{mpv,mpd,ncmpcpp} ~/.config
 systemctl --user enable mpd
 systemctl --user start mpd
 
