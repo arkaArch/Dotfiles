@@ -1,9 +1,5 @@
 #!/bin/sh
 
-# Installing cli utilities:
-sudo pacman -S git openssh pacman-contrib tree fastfetch
-ln -svf ~/Dotfiles/confs/fastfetch ~/.config
-
 # Instal fonts:
 sudo pacman -S noto-fonts{,-cjk,-emoji,-extra}
 sudo pacman -S ttf-cascadia-code-nerd ttf-firacode-nerd
@@ -38,6 +34,10 @@ sudo pacman -S ristretto mpv mpd ncmpcpp
 ln -svf ~/Dotfiles/confs/{mpv,mpd,ncmpcpp} ~/.config
 systemctl --user enable mpd
 systemctl --user start mpd
+
+# Installing cli utilities:
+sudo pacman -S git openssh pacman-contrib tree fastfetch fwupd unzip
+ln -svf ~/Dotfiles/confs/fastfetch ~/.config
 
 # GTK look and feel:
 sudo pacman -S nwg-look materia-gtk-theme papirus-icon-theme
