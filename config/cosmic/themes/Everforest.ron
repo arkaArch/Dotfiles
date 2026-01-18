@@ -1,0 +1,259 @@
+(
+    palette: Dark((
+        name: "Everforest Dark",
+        bright_red: (
+            red: 0.9019608, // #e67e80
+            green: 0.49411765,
+            blue: 0.5019608,
+            alpha: 1.0,
+        ),
+        bright_green: (
+            red: 0.654902, // #a7c080
+            green: 0.7529412,
+            blue: 0.5019608,
+            alpha: 1.0,
+        ),
+        bright_orange: (
+            red: 0.9019608, // #e69875
+            green: 0.59607846,
+            blue: 0.45882353,
+            alpha: 1.0,
+        ),
+        gray_1: (
+            red: 0.19607843, // #323c41
+            green: 0.23529412,
+            blue: 0.25490198,
+            alpha: 1.0,
+        ),
+        gray_2: (
+            red: 0.22745098, // #3a454a
+            green: 0.27058825,
+            blue: 0.2901961,
+            alpha: 1.0,
+        ),
+        neutral_0: (
+            red: 0.16862746, // #2b3339 (Background)
+            green: 0.2,
+            blue: 0.22352941,
+            alpha: 1.0,
+        ),
+        neutral_1: (
+            red: 0.19607843, // #323c41
+            green: 0.23529412,
+            blue: 0.25490198,
+            alpha: 1.0,
+        ),
+        neutral_2: (
+            red: 0.22745098, // #3a454a
+            green: 0.27058825,
+            blue: 0.2901961,
+            alpha: 1.0,
+        ),
+        neutral_3: (
+            red: 0.26666668, // #445055
+            green: 0.3137255,
+            blue: 0.33333334,
+            alpha: 1.0,
+        ),
+        neutral_4: (
+            red: 0.29803923, // #4c595e
+            green: 0.34901962,
+            blue: 0.36862746,
+            alpha: 1.0,
+        ),
+        neutral_5: (
+            red: 0.3254902, // #536066
+            green: 0.3764706,
+            blue: 0.4,
+            alpha: 1.0,
+        ),
+        neutral_6: (
+            red: 0.47843137, // #7a8478
+            green: 0.5176471,
+            blue: 0.47058824,
+            alpha: 1.0,
+        ),
+        neutral_7: (
+            red: 0.52156866, // #859289
+            green: 0.57254905,
+            blue: 0.5372549,
+            alpha: 1.0,
+        ),
+        neutral_8: (
+            red: 0.6156863, // #9da9a0
+            green: 0.6627451,
+            blue: 0.627451,
+            alpha: 1.0,
+        ),
+        neutral_9: (
+            red: 0.654902, // #a7c080 (Green-ish tint)
+            green: 0.7529412,
+            blue: 0.5019608,
+            alpha: 1.0,
+        ),
+        neutral_10: (
+            red: 0.827451, // #d3c6aa (Foreground)
+            green: 0.7764706,
+            blue: 0.6666667,
+            alpha: 1.0,
+        ),
+        accent_blue: (
+            red: 0.49803922, // #7fbbb3
+            green: 0.73333335,
+            blue: 0.7019608,
+            alpha: 1.0,
+        ),
+        accent_indigo: (
+            red: 0.27058825, // #458588 (Aqua Blue/Darker)
+            green: 0.52156866,
+            blue: 0.53333336,
+            alpha: 1.0,
+        ),
+        accent_purple: (
+            red: 0.8392157, // #d699b6
+            green: 0.6,
+            blue: 0.7137255,
+            alpha: 1.0,
+        ),
+        accent_pink: (
+            red: 0.9019608, // #e67e80 (Using Red as Pink/Love)
+            green: 0.49411765,
+            blue: 0.5019608,
+            alpha: 1.0,
+        ),
+        accent_red: (
+            red: 0.9019608, // #e67e80
+            green: 0.49411765,
+            blue: 0.5019608,
+            alpha: 1.0,
+        ),
+        accent_orange: (
+            red: 0.9019608, // #e69875
+            green: 0.59607846,
+            blue: 0.45882353,
+            alpha: 1.0,
+        ),
+        accent_yellow: (
+            red: 0.85882354, // #dbbc7f
+            green: 0.7372549,
+            blue: 0.49803922,
+            alpha: 1.0,
+        ),
+        accent_green: (
+            red: 0.654902, // #a7c080
+            green: 0.7529412,
+            blue: 0.5019608,
+            alpha: 1.0,
+        ),
+        accent_warm_grey: (
+            red: 0.6156863, // #9da9a0
+            green: 0.6627451,
+            blue: 0.627451,
+            alpha: 1.0,
+        ),
+        ext_warm_grey: (
+            red: 0.3254902, // #536066
+            green: 0.3764706,
+            blue: 0.4,
+            alpha: 1.0,
+        ),
+        ext_orange: (
+            red: 0.9019608,
+            green: 0.59607846,
+            blue: 0.45882353,
+            alpha: 1.0,
+        ),
+        ext_yellow: (
+            red: 0.85882354,
+            green: 0.7372549,
+            blue: 0.49803922,
+            alpha: 1.0,
+        ),
+        ext_blue: (
+            red: 0.49803922,
+            green: 0.73333335,
+            blue: 0.7019608,
+            alpha: 1.0,
+        ),
+        ext_purple: (
+            red: 0.8392157,
+            green: 0.6,
+            blue: 0.7137255,
+            alpha: 1.0,
+        ),
+        ext_pink: (
+            red: 0.9019608,
+            green: 0.49411765,
+            blue: 0.5019608,
+            alpha: 1.0,
+        ),
+        ext_indigo: (
+            red: 0.27058825,
+            green: 0.52156866,
+            blue: 0.53333336,
+            alpha: 1.0,
+        ),
+    )),
+    spacing: (
+        space_none: 0,
+        space_xxxs: 4,
+        space_xxs: 8,
+        space_xs: 12,
+        space_s: 16,
+        space_m: 24,
+        space_l: 32,
+        space_xl: 48,
+        space_xxl: 64,
+        space_xxxl: 128,
+    ),
+    corner_radii: (
+        radius_0: (0.0, 0.0, 0.0, 0.0),
+        radius_xs: (2.0, 2.0, 2.0, 2.0),
+        radius_s: (2.0, 2.0, 2.0, 2.0),
+        radius_m: (2.0, 2.0, 2.0, 2.0),
+        radius_l: (2.0, 2.0, 2.0, 2.0),
+        radius_xl: (2.0, 2.0, 2.0, 2.0),
+    ),
+    neutral_tint: Some((
+        red: 0.19607843, // #323c41
+        green: 0.23529412,
+        blue: 0.25490198,
+    )),
+    bg_color: Some((
+        red: 0.16862746, // #2b3339
+        green: 0.2,
+        blue: 0.22352941,
+        alpha: 1.0,
+    )),
+    primary_container_bg: None,
+    secondary_container_bg: None,
+    text_tint: Some((
+        red: 0.827451, // #d3c6aa
+        green: 0.7764706,
+        blue: 0.6666667,
+    )),
+    accent: Some((
+        red: 0.654902, // #a7c080 (Green)
+        green: 0.7529412,
+        blue: 0.5019608,
+    )),
+    success: Some((
+        red: 0.654902, // #a7c080
+        green: 0.7529412,
+        blue: 0.5019608,
+    )),
+    warning: Some((
+        red: 0.85882354, // #dbbc7f
+        green: 0.7372549,
+        blue: 0.49803922,
+    )),
+    destructive: Some((
+        red: 0.9019608, // #e67e80
+        green: 0.49411765,
+        blue: 0.5019608,
+    )),
+    is_frosted: false,
+    gaps: (0, 8),
+    active_hint: 3,
+    window_hint: None,
+)
