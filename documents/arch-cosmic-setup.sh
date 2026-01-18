@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Install cosmic:
+sudo pacman -S cosmic power-profiles-daemon
+
 # Instal fonts:
 sudo pacman -S noto-fonts{,-cjk,-emoji,-extra} ttf-cascadia-code-nerd ttf-firacode-nerd
 
