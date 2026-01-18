@@ -5,8 +5,12 @@ sudo pacman -S noto-fonts{,-cjk,-emoji,-extra}
 sudo pacman -S ttf-cascadia-code-nerd ttf-firacode-nerd
 
 # Install Hyprland and it's components:
-sudo pacman -S hyprland ghostty hyprpaper hyprlock htpridle rofi mako waybar wl-clipboard
-ln -svf ~/Dotfiles/config/{hypr,ghostty,rofi,mako,waybar} ~/.config
+sudo pacman -S hyprland hyprpaper hyprlock htpridle rofi mako waybar wl-clipboard
+ln -svf ~/Dotfiles/config/{hypr,rofi,mako,waybar} ~/.config
+
+# Install terminals:
+sudo pacman -S kitty ghostty
+ln -svf ~/Dotfiles/config/{kitty,ghostty} ~/.config
 
 # Browser:
 sudo pacman -S firefox
