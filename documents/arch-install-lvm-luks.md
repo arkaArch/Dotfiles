@@ -5,7 +5,7 @@
 
 > nvme0n1p1 - 300M - EFI partition  (type: 1)
 
-> nvme0n1p2 - 600M - boot partition  (type: 1)
+> nvme0n1p2 - 600M - boot partition  (type: default)
 
 > nvme0n1p3 - rest_space - lvm partition (type: 44)
 

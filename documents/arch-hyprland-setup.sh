@@ -12,7 +12,7 @@ ln -svf ~/Dotfiles/config/{hypr,kitty,rofi,mako,waybar} ~/.config
 sudo pacman -S firefox 
 # Extension: ublock-origin
 
-# Installing sound and audio:
+# Installing sound and light:
 sudo pacman -S pipewire pipewire-pulse sof-firmware brightnessctl
 
 # Installing file-managers:
@@ -20,8 +20,9 @@ sudo pacman -S yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagi
 ln -svf ~/Dotfiles/config/yazi ~/.config
 sudo pacman -S thunar gvfs gvfs-mtp thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler ffmpegthumbnailer
 
-# Installing z-shell and exa:
-sudo pacman -S exa zsh zsh-{syntax-highlighting,autosuggestions}
+# Installing z-shell and some gnu core-util alternatives:
+sudo pacman -S bat exa
+sudo pacman -S zsh zsh-{syntax-highlighting,autosuggestions}
 chsh -s $(which zsh)
 rm -r ~/.bash*
 ln -svf ~/Dotfiles/config/zsh/zshrc ~/.zshrc

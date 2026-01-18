@@ -52,8 +52,8 @@ compinit
 
 # Gnu aliases:
 alias \
-    ls='eza -l --color=always --group-directories-first' \
-    la='eza -la --color=always --group-directories-first' \
+    ls='eza -l --icons --color=always --group-directories-first' \
+    la='eza -la --icons --color=always --group-directories-first' \
     grep='grep --color=auto' \
     ..='cd ..' \
     ...='cd ../..' \
