@@ -53,19 +53,14 @@
 - Mount the root partition:
     > mount /dev/arch/root /mnt
 
-- Make directories `boot` and `home`:
-    > mkdir /mnt/{boot,home}
-
 - Mount boot partition:
-    > mount /dev/nvme0n1p2 /mnt/boot
+    > mount --mkdir /dev/nvme0n1p2 /mnt/boot
 
 - Mount EFI partition:
-    > mkdir /mnt/boot/EFI
-    
-    > mount /dev/nvme0n1p1 /mnt/boot/EFI
+    > mount --mkdir /dev/nvme0n1p1 /mnt/boot/EFI
 
 - Mount home partition:
-    > mount /dev/arch/home /mnt/home
+    > mount --mkdir /dev/arch/home /mnt/home
 
 ### 4.  Installing essential packages:
 > pacstrap -i /mnt base linux linux-firmware intel-ucode lvm2 dosfstools neovim man-db man-pages texinfo
