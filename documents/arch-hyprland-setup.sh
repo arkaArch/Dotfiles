@@ -29,7 +29,8 @@ sudo pacman -S bat exa
 sudo pacman -S zsh zsh-{syntax-highlighting,autosuggestions}
 chsh -s $(which zsh)
 rm -r ~/.bash*
-ln -svf ~/Dotfiles/config/zsh/zshrc ~/.zshrc
+ln -svf ~/Dotfiles/config/zsh/.zshrc ~
+ln -svf ~/Dotfiles/config/zsh/.zprofile ~
 
 # Linking nvim config:
 ln -svf ~/Dotfiles/config/nvim/ ~/.config/
