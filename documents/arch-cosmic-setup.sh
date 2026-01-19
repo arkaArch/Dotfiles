@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # Install cosmic:
-sudo pacman -S cosmic power-profiles-daemon
+sudo pacman -S cosmic vulkan-intel power-profiles-daemon
+sudo systemctl enable cosmic-greeter.service
 
 # Instal fonts:
 sudo pacman -S noto-fonts{,-cjk,-emoji,-extra} ttf-cascadia-code-nerd ttf-firacode-nerd
@@ -40,6 +41,3 @@ systemctl --user start mpd
 # Installing cli utilities:
 sudo pacman -S git openssh pacman-contrib tree fastfetch fwupd unzip
 ln -svf ~/Dotfiles/config/fastfetch ~/.config
-
-# Install vulkan-intel(Don't know wheather its required or not)
-sudo pacman -S vulkan-intel
