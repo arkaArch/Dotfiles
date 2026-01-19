@@ -15,9 +15,6 @@ ln -svf ~/Dotfiles/config/ghostty ~/.config
 sudo pacman -S firefox 
 # Extension: ublock-origin
 
-# Pipewire:
-sudo pacman -S pipewire pipewire-pulse
-
 # Install yazi:
 sudo pacman -S yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick udisks2
 ln -svf ~/Dotfiles/config/yazi ~/.config
@@ -34,10 +31,11 @@ ln -svf ~/Dotfiles/config/nvim/ ~/.config/
 
 # Install music and video player:
 sudo pacman -S mpv mpd ncmpcpp
+sudo pacman -Rns cosmic-player
 ln -svf ~/Dotfiles/config/{mpd,ncmpcpp} ~/.config
 systemctl --user enable mpd
 systemctl --user start mpd
 
 # Installing cli utilities:
-sudo pacman -S git openssh pacman-contrib tree fastfetch fwupd unzip
+sudo pacman -S git pacman-contrib tree fastfetch fwupd unzip
 ln -svf ~/Dotfiles/config/fastfetch ~/.config
