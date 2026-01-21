@@ -27,6 +27,7 @@ rm -r ~/.bash*
 ln -svf ~/Dotfiles/config/zsh/.zshrc ~
 
 # Linking nvim config:
+sudo pacman -S wl-clipboard
 ln -svf ~/Dotfiles/config/nvim/ ~/.config/
 
 # Install music and video player:
