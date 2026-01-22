@@ -14,7 +14,7 @@
         "network",
         "memory",
         "cpu",
-        "temperature",
+        "custom/temperature",
         "pulseaudio",
         "bluetooth",
         "battery"
@@ -66,11 +66,10 @@
         "format": "󰘚 {}%"
     },
     
-    "temperature": {
-        "thermal-zone": 2,
-        "critical-threshold": 80,
-        "format-critical": " {temperatureC}°C",
-        "format": " {temperatureC}°C"
+    "custom/temperature": {
+        "exec": "~/.config/waybar/scripts/temperature.sh",
+        "interval": 60,
+        "format": "{}"
     },
 
     "pulseaudio": {
