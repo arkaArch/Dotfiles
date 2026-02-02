@@ -43,7 +43,7 @@ sudo dnf install yazi --setopt=install_weak_deps=True
 ln -svf ~/Dotfiles/config/yazi ~/.config/
 
 # Zsh and Tools:
-sudo dnf install fzf bat fastfetch zsh zsh-{syntax-highlighting,autosuggestions}
+sudo dnf install fzf bat fastfetch zsh zsh-{syntax-highlighting,autosuggestions} lm_sensors
 chsh -s $(which zsh)
 rm -r ~/.bash*
 ln -svf ~/Dotfiles/config/zsh/.zshrc_sirius ~/.zshrc
