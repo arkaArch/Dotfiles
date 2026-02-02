@@ -43,7 +43,8 @@ systemctl --user start mpd
 
 # Installing cli utilities:
 sudo pacman -S git openssh pacman-contrib fastfetch fwupd unzip
-ln -svf ~/Dotfiles/config/fastfetch ~/.config
+mkdir ~/.config/fastfetch
+ln -svf ~/Dotfiles/config/fastfetch/pollux.jsonc ~/.config/fastfetch/config.jsonc
 
 # GTK look and feel:
 sudo pacman -S nwg-look materia-gtk-theme papirus-icon-theme
