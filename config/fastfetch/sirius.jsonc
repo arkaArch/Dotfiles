@@ -1,4 +1,5 @@
 {
+    // https://github.com/fastfetch-cli/fastfetch/wiki/Format-String-Guide.
     "logo": {
         "color": {
             "1": "blue",
@@ -18,15 +19,15 @@
         },
         
         {
-            "type": "host",
-            "key": "   Computer",
-            "format": "{1}",
+            "type": "board",
+            "key": "  󰚗 Mobo",
+            "format": "{vendor:8} {name}",
             "keyColor": "red"
         },
 
         {
             "type": "os",
-            "key": "  󰣇 Distro",
+            "key": "   Distro",
             "format": "{2}",
             "keyColor": "red"
         },
@@ -48,9 +49,9 @@
             "keyColor": "green"
         },
         {
-            "type": "display",
-            "key": "  󰍹 Display",
-            "format": "{1}x{2} @ {3}Hz in {12}\"",
+            "type": "monitor",
+            "key": "  󰍹 Monitor",
+            "format": "{name:7} {inch}\" ({width}x{height}) @ {refresh-rate}Hz",
             "keyColor": "green"
         },
         {
