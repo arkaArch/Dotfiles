@@ -1,0 +1,20 @@
+theme = Kanagawa Wave
+gtk-custom-css = custom.css
+
+background-opacity = 0.90
+window-padding-x = 10
+window-padding-y = 10
+
+font-family = "CaskaydiaCove Nerd Font"
+font-size = 10.5
+
+cursor-style = block
+cursor-style-blink = true
+mouse-hide-while-typing = true
+
+keybind = ctrl+shift+q=close_tab:this
+keybind = ctrl+shift+h=new_split:left
+keybind = ctrl+shift+j=new_split:down
+keybind = ctrl+shift+k=new_split:up
+keybind = ctrl+shift+l=new_split:right
+keybind = ctrl+shift+r=reload_config
