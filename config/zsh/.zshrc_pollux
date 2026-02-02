@@ -61,7 +61,7 @@ alias \
 
 # Application aliases:
 alias \
-    t='tree -Ca' \
+    t='eza --tree' \
     v='nvim' \
     yz='yazi' \
     mp='ncmpcpp' \

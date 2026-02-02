@@ -25,11 +25,11 @@ ln -svf ~/Dotfiles/config/yazi ~/.config
 sudo pacman -S thunar gvfs gvfs-mtp thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler ffmpegthumbnailer
 
 # Installing z-shell and some gnu core-util alternatives:
-sudo pacman -S bat exa
+sudo pacman -S bat eza
 sudo pacman -S zsh zsh-{syntax-highlighting,autosuggestions}
 chsh -s $(which zsh)
 rm -r ~/.bash*
-ln -svf ~/Dotfiles/config/zsh/.zshrc ~
+ln -svf ~/Dotfiles/config/zsh/.zshrc_pollux ~/.zshrc
 ln -svf ~/Dotfiles/config/zsh/.zprofile ~
 
 # Linking nvim config:
@@ -42,7 +42,7 @@ systemctl --user enable mpd
 systemctl --user start mpd
 
 # Installing cli utilities:
-sudo pacman -S git openssh pacman-contrib tree fastfetch fwupd unzip
+sudo pacman -S git openssh pacman-contrib fastfetch fwupd unzip
 ln -svf ~/Dotfiles/config/fastfetch ~/.config
 
 # GTK look and feel:
