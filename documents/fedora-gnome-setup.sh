@@ -68,7 +68,7 @@ rm -r Desktop Documents Templates Public
 
 # For Programming ------------------------------------------>
 # Install C/C++ compiler
-sudo dnf install gcc gcc-c++ gdb clang
+sudo dnf install gcc gcc-c++ gdb clang-devel
 
 
 
