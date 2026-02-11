@@ -1,0 +1,20 @@
+ncmpcpp_directory = "~/.config/ncmpcpp"
+lyrics_directory = "~/Music/Lyrics"
+mpd_music_dir = "~/Music"
+
+user_interface = alternative
+
+# Toggle between classic and columns mode with "/"
+playlist_display_mode = columns
+browser_display_mode = columns
+search_engine_display_mode = columns
+playlist_editor_display_mode = columns
+
+startup_screen = browser
+
+message_delay_time = "1"
+
+visualizer_type = "wave_filled"
+
+progressbar_look = "="
+progressbar_elapsed_color = 211:b

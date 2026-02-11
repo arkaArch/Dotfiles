@@ -1,0 +1,125 @@
+{
+    "logo": {
+        "color": {
+            "1": "blue",
+            "2": "white"
+        }
+    },
+    
+    "modules": [
+        {
+            "type": "title",
+            "format": "                 {6}{7}{8}"
+        },
+
+        {
+            "type": "custom",
+            "format": "┌───────────────────────────────────────────────┐"
+        },
+        
+        {
+            "type": "host",
+            "key": "   Computer",
+            "format": "{1}",
+            "keyColor": "red"
+        },
+
+        {
+            "type": "os",
+            "key": "  󰣇 Distro",
+            "format": "{2}",
+            "keyColor": "red"
+        },
+        
+        {
+            "type": "kernel",
+            "key": "   Kernel",
+            "format": "{2}",
+            "keyColor": "red"
+        },
+        {
+            "type": "uptime",
+            "key": "  󱫐 Uptime ",
+            "keyColor": "red"
+        },
+        {
+            "type": "packages",
+            "key": "  󰏗 Packages",
+            "keyColor": "green"
+        },
+        {
+            "type": "display",
+            "key": "  󰍹 Display",
+            "format": "{1}x{2} @ {3}Hz in {12}\"",
+            "keyColor": "green"
+        },
+        {
+            "type": "terminal",
+            "key": "   Terminal",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "de",
+            "key": "  󱗃 DE",
+            "format": "{2}",
+            "keyColor": "yellow"
+        },
+        
+        {
+            "type": "terminalfont",
+            "key": "   Term Font",
+            "format": "{2}",
+            "keyColor": "yellow"
+        },
+        
+        {
+            "type": "cpu",
+            "key" : "  󰍛 CPU",
+            "format": "{1}",
+            "keyColor": "cyan"
+        },
+
+        {
+            "type": "memory",
+            "key": "   Memory",
+            "keyColor": "cyan"
+        },
+        
+        {
+            "type": "disk",
+            "key": "   Disk",
+            "format": "{1}/{2} @ [{20}]",
+            "keycolor": "magenta"
+        },
+
+        {
+            "type": "battery",
+            "key": "  󱤂 Battery",
+            "format": "{4} [{5}]",
+            "keyColor": "magenta"
+        },
+
+        {
+            "type": "command",
+            "key": "  󰔚 OS-Age ",
+            "keyColor": "magenta",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+
+        {
+            "type": "custom",
+            "format": "└───────────────────────────────────────────────┘"
+        },
+        
+        "break",
+        
+        {
+            "key": "     Colors",
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "square"
+        },
+
+        "break"
+    ]
+}

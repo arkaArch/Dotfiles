@@ -1,0 +1,6 @@
+* {
+    font: "CaskaydiaCove Nerd Font 10";
+}
+@import "themes/kanagawa_wave.rasi"
+@import "styles/centered_grid.rasi"
+

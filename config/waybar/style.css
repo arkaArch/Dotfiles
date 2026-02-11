@@ -1,0 +1,77 @@
+@import "themes/kanagawa_wave.css";
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "CaskaydiaCove Nerd Font Propo";
+    font-size: 13px;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#waybar, 
+#clock {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+window#waybar {
+    color: @fg;
+    background-color: @bg;
+}
+
+window#waybar>box {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: @fg;
+    background-color: @bg;
+}
+
+#workspaces button.empty {
+    color: @fg_alt;
+}
+
+#workspaces button.active {
+    color: @bg;
+    background-color: @green;
+}
+
+#clock {
+    padding: 0 10px;
+    background-color: @bg_alt;
+}
+
+#memory, #bluetooth {
+    color: @magenta;
+}
+
+#network, #cpu {
+    color: @green;
+}
+
+#custom-cpu-temperature {
+    color: @red;
+}
+
+#custom-ssd-temperature {
+    color: @orange;
+}
+
+#pulseaudio {
+    color: @blue;
+}
+
+#battery.plugged {
+    color: @cyan;
+}
+#battery.charging {
+    color: @green;
+}
+#battery.discharging {
+    color: @orange;
+}
