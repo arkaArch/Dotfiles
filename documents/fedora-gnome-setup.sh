@@ -66,9 +66,19 @@ ln -svf ~/Dotfiles/gconfig/xdg/user-dirs.dirs ~/.config/
 rm -r Desktop Documents Templates Public 
 
 
+
+
 # For Programming ------------------------------------------>
 # Install C/C++ compiler and lsp:
 sudo dnf install gcc gcc-c++ gdb clang-devel
+
+# VS-Codium:
+# Add repository for vscodium(https://vscodium.com/)
+sudo dnf install codium
+ln -svf ~/Dotfiles/gconfig/codium/settings.json ~/.config/VSCodium/User
+
+# Chromium:
+sudo dnf install chromium
 
 
 

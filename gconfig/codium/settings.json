@@ -1,0 +1,11 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Kanagawa Wave",
+    "workbench.activityBar.location": "top",
+    
+    "window.menuBarVisibility": "compact",
+
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "CaskaydiaCove Nerd Font",
+    "editor.rulers": [88]
+}
