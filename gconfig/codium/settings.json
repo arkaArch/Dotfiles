@@ -2,10 +2,14 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Kanagawa Wave",
     "workbench.activityBar.location": "top",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
     
     "window.menuBarVisibility": "compact",
 
     "editor.minimap.enabled": false,
     "editor.fontFamily": "CaskaydiaCove Nerd Font",
-    "editor.rulers": [88]
+    "editor.rulers": [
+        88
+    ],
+    "chat.viewSessions.enabled": false
 }

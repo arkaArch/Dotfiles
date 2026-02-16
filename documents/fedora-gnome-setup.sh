@@ -80,6 +80,9 @@ ln -svf ~/Dotfiles/gconfig/codium/settings.json ~/.config/VSCodium/User
 # Chromium:
 sudo dnf install chromium
 
+# Node package:
+sudo dnf install nodejs
+
 
 
 # =============================== CUSTOMIZE GNOME =============================== #

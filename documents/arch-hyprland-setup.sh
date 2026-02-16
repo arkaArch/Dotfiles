@@ -55,3 +55,9 @@ sudo systemctl enable bluetooth.service
 
 # Install vulkan-intel(Don't know wheather its required or not)
 sudo pacman -S vulkan-intel
+
+
+
+# ---------------------------------- Programming ---------------------------------- #
+sudo pacman -S clang gdb code chromium
+ln -svf ~/Dotfiles/gconfig/codium/settings.json ~/.config/Code\ -\ OSS/User/
