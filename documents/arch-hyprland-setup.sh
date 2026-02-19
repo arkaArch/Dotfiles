@@ -61,3 +61,4 @@ sudo pacman -S vulkan-intel
 # ---------------------------------- Programming ---------------------------------- #
 sudo pacman -S clang gdb code chromium
 ln -svf ~/Dotfiles/gconfig/codium/settings.json ~/.config/Code\ -\ OSS/User/
+sudo pacman -S nodejs
