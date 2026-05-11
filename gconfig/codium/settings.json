@@ -1,6 +1,7 @@
 {
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Kanagawa Wave",
+    "workbench.startupEditor": "none",
     "workbench.activityBar.location": "top",
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     
@@ -11,5 +12,6 @@
     "editor.rulers": [
         88
     ],
-    "chat.viewSessions.enabled": false
+    "chat.viewSessions.enabled": false,
+    "update.showReleaseNotes": false
 }
