@@ -113,7 +113,8 @@
 * Edit `/etc/default/grub` by going to the line `GRUB_CMDLINE_LINUX_DEFAULT` and between `loglevel=3` and `quite` add `cryptdevice=/dev/nvme0n1p3:arch`
 
 * Install grub:
-    > grub-install --target=x86_64-efi --bootloader-id=archlinux --recheck
+    > grub-install --target=x86_64-efi --bootloader-id=arch --recheck
+    - Do not change the --bootloader-id name, since it affects fwupd package during firmware updates
 
 * Generate a config file for GRUB:
     > grub-mkconfig -o /boot/grub/grub.cfg
