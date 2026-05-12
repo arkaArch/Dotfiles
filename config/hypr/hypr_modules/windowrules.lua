@@ -1,19 +1,26 @@
 hl.window_rule({
-    match = { class = "ristretto" },
+    match = { class = "org.xfce.ristretto" },
     float = true,
     center = true,
     size = { 1200, 800 },
 })
 
 hl.window_rule({
-    match = { class = "yazi" or "ncmpcpp" },
+    match = { class = "yazi" },
     float = true,
     center = true,
     size = { 800, 500 },
 })
 
 hl.window_rule({
-    match = { class = "Thunar" or "thunar" },
+    match = { class = "ncmpcpp" },
+    float = true,
+    center = true,
+    size = { 800, 500 },
+})
+
+hl.window_rule({
+    match = { class = "Thunar" },
     float = true,
     center = true,
     size = { 900, 600 },
