@@ -35,6 +35,7 @@ vim.opt.splitright = true
 vim.opt.splitbelow = true
 
 
+
 -- ===================================================
 -- KEYMAPS
 -- ===================================================
@@ -78,6 +79,7 @@ end)
 vim.keymap.set("t", "<leader>ct", "<Esc><C-\\><C-n>:q<Enter>")
 
 
+
 -- ===================================================
 -- PLUGINS
 -- ===================================================
@@ -90,16 +92,13 @@ vim.pack.add({
     'https://github.com/neovim/nvim-lspconfig',
 })
 
-
 -- Colorscheme and transparency (kanagawa)
 require("kanagawa").load("wave")
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 
-
 -- Status bar (Lualine)
 require("lualine").setup({ options = { theme = 'tomorrow_night' } })
-
 
 -- Indent line (indent-blankline)
 require("ibl").setup()
@@ -129,6 +128,7 @@ vim.keymap.set("n", "<leader>ec", "<cmd>NvimTreeCollapse<CR>", {desc = "Collapse
 --   'd' -> Delete a file/directory
 --   'D' -> Trash a file/directory
 -- }
+
 
 
 -- ===================================================
