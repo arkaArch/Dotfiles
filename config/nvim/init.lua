@@ -87,20 +87,25 @@ vim.pack.add({
     'https://github.com/nvim-lualine/lualine.nvim',
     'https://github.com/lukas-reineke/indent-blankline.nvim',
     'https://github.com/nvim-tree/nvim-tree.lua',
+    'https://github.com/neovim/nvim-lspconfig',
 })
 
--- Colorscheme and transparency
+
+-- Colorscheme and transparency (kanagawa)
 require("kanagawa").load("wave")
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 
+
 -- Status bar (Lualine)
 require("lualine").setup({ options = { theme = 'tomorrow_night' } })
+
 
 -- Indent line (indent-blankline)
 require("ibl").setup()
 
 
+-- File explorer(nvim-tree)
 -- Disable netrw recommended by neotree
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
@@ -118,9 +123,44 @@ vim.keymap.set("n", "<leader>et", "<cmd>NvimTreeToggle<CR>",   {desc = "Toggle(O
 vim.keymap.set("n", "<leader>ec", "<cmd>NvimTreeCollapse<CR>", {desc = "Collapses folders recursively."} )
 
 -- {    
---   'a' -> Cretae file/directory
+--   'a' -> Create file/directory
 --   'r' -> Rename a file/directory
 --   'R' -> Refresh the tree
 --   'd' -> Delete a file/directory
 --   'D' -> Trash a file/directory
 -- }
+
+
+-- ===================================================
+-- LSP CONFIG
+-- ===================================================
+vim.lsp.enable({ "clang" })
+
+vim.lsp.config('clang', {
+    cmd = { 'clangd', '--background-index' },
+    filetypes = { 'c', 'cpp' },
+    root_markers = { 'compile_commands.json', 'compile_flags.txt' },
+})
+
+vim.diagnostic.config({
+    virtual_text = true,
+    underline = true,
+    update_in_insert = false,
+    severity_sort = true,
+    float = {
+        border = "rounded",
+        source = true,
+    },
+    signs = {
+        text = {
+            [vim.diagnostic.severity.ERROR] = "󰅚 ",
+            [vim.diagnostic.severity.WARN] = "󰀪 ",
+            [vim.diagnostic.severity.INFO] = "󰋽 ",
+            [vim.diagnostic.severity.HINT] = "󰌶 ",
+        },
+        numhl = {
+            [vim.diagnostic.severity.ERROR] = "ErrorMsg",
+            [vim.diagnostic.severity.WARN] = "WarningMsg",
+        },
+    },
+})
