@@ -12,7 +12,11 @@ sudo dnf remove \
 	nano ntfs-3g ntfs-3g-libs {nvidia-gpu,nxpwireless}-firmware \
 	libreoffice-core decibels showtime snapshot simple-scan \
 	vpnc virtualbox-guest-additions yelp
-	
+
+# After updated to 44 from 43 -------------------------->
+sudo dnf remove f43-backgrounds-base
+sudo dnf autoremove
+
 sudo systemctl disable bluetooth.service
 
 
